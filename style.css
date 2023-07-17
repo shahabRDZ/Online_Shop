@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'far';
+    src: url('fonts/Yekan.eot') format('eot'),
+    url('fonts/Yekan.ttf') format('truetype'),
+    url('fonts/Yekan.woff') format('woff');
+}
+@font-face {
+    font-family: 'farn';
+    src: url('fonts/yekannumbers-regular.eot') format('eot'),
+    url('fonts/yekannumbers-regular.ttf') format('truetype'),
+    url('fonts/yekannumbers-regular.woff') format('woff');
+}
+
+html{
+    height: 100;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 100%;
+    direction: rtl;
+    font-family: far , tahoma;
+    background: #f1fffa;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
