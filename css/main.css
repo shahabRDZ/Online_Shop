@@ -1,0 +1,71 @@
+#main{
+    position: relative;
+    width: 1170px;
+    height: 900px;
+    background: yellow;
+    margin: 0 auto;
+    top: 40px;
+    padding: 30px 0;
+}
+.main_download{
+    width: 750px;
+    float: right;
+}
+.download{
+    background: #e2ece9;
+    padding: 20px;
+    box-shadow: 0 -40px 40px #9dbf9d inset;
+}
+.download_title{
+    max-width: max-content;
+}
+.download_image{
+    width: 500px;
+    margin: 0 auto;
+}
+.download_image>a>img{
+    width: 100;
+}
+.download_description>p{
+    color: #144551;
+    text-align: justify;
+}
+.download_footer{
+    padding: 20px;
+}
+.download_price{
+    color: #144551;
+    float: right;
+}
+.download_shopping{
+    padding: 3px 15px;
+    float: left;
+    background: #144551;
+    color: #f1fff1;
+    border: 1px solid #144551;
+    border-radius: 5px;
+}
+.download_shopping:hover{
+    color: #144551;
+    background: #f1fff1;
+}
+.download_price>p{
+    font-family: farn;
+    float: right;
+    margin: 0;
+    padding: 0 0 0 10px;
+
+}
+.download_title>a{
+    color: #144551;
+
+}
+.download_title>a:hover{
+    color: #4d908e;
+}
+.main_sidebar{
+    width: 350px;
+    height: 600px;
+    background: red;
+    float: left;
+}

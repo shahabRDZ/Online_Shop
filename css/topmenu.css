@@ -3,6 +3,8 @@
     height: 40px;
     position: fixed;
     box-shadow: 0 0 10px 0.1px #144552;
+    z-index: 1000;
+    background: #e2ece9;
    
 }
 .topmenu{
@@ -52,11 +54,14 @@ background: red;
 top: 40px;
 background: url('../img/banner.jpeg') repeat-x 0 40px fixed;
 opacity: 70%;
+display: flex;
+flex-flow: row;
+justify-content: center;
 }
 .banner{
     max-width: max-content;
-    margin: 0 auto;
     line-height: 120px;
+    position: fixed;
 
 }
 .banner>.title{
