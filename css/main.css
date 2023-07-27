@@ -1,8 +1,6 @@
 #main{
     position: relative;
     width: 1170px;
-    height: 900px;
-    background: yellow;
     margin: 0 auto;
     top: 40px;
     padding: 30px 0;
@@ -15,10 +13,19 @@
     background: #e2ece9;
     padding: 20px;
     box-shadow: 0 -40px 40px #9dbf9d inset;
+    margin-bottom: 30px;
 }
 .download_title{
     max-width: max-content;
 }
+.download_title>a{
+    color: #144551;
+
+}
+.download_title>a:hover{
+    color: #4d908e;
+}
+
 .download_image{
     width: 500px;
     margin: 0 auto;
@@ -55,17 +62,4 @@
     margin: 0;
     padding: 0 0 0 10px;
 
-}
-.download_title>a{
-    color: #144551;
-
-}
-.download_title>a:hover{
-    color: #4d908e;
-}
-.main_sidebar{
-    width: 350px;
-    height: 600px;
-    background: red;
-    float: left;
 }
