@@ -23,6 +23,9 @@ body{
     direction: rtl;
     font-family: far , tahoma;
     background: #f1fffa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 ul{
     margin: 0;

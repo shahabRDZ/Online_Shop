@@ -21,12 +21,18 @@
 .sidebar>ul>li>a:hover{
     background: #9dbf9d;
 }
+.sidebar_comm-img{
+    margin-bottom: 30px;
+}
 .sidebar_comm-img>a>img{
     width: 100%;
 }
 .sidebar_comm-txt a{
     padding: 5px 10px;
     color: #144551;
+}
+.sidebar_comm-txt{
+    margin-bottom: 30px;
 }
 .sidebar_comm-txt ul li:nth-child(1)>a{
     border-right: 5px solid #f71836;

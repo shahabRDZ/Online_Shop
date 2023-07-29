@@ -4,6 +4,7 @@
     margin: 0 auto;
     top: 40px;
     padding: 30px 0;
+    flex: 1;
 }
 .main_download{
     width: 750px;
